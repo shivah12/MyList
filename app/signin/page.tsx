@@ -2,7 +2,7 @@
 import { SignIn } from "@clerk/nextjs";
 import React from "react";
 require('dotenv').config();
-console.log(process.env.CLIENT_SECRET_KEY)
+console.log(process.env);
 function page() {
   return (
     <div className="flex items-center justify-center h-full">
