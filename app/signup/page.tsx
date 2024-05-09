@@ -1,8 +1,9 @@
 "use client";
 import { SignUp } from "@clerk/nextjs";
 import React from "react";
-require('dotenv').config();
-console.log(process.env);
+import dotenv from 'dotenv';
+
+dotenv.config();
 function page() {
   return (
     <div className="flex items-center justify-center h-full">
