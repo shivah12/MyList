@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is a ToDoList application built using Next.js, integrated with Clerk for user authentication. It leverages TypeScript for type safety, Tailwind CSS for styling, and Prisma as the ORM for interacting with the database. With this application, users can register, login, create ToDo items, mark them as complete, and delete them.
+This project is a ToDoList application built using Next.js, integrated with Clerk for user authentication. It leverages TypeScript for type safety, Tailwind CSS for styling, and Prisma & MongoDB as the ORM for interacting with the database. With this application, users can register, login, create ToDo items, mark them as complete, and delete them (CRUD functions).
 
 ## Features
 
@@ -10,7 +10,7 @@ This project is a ToDoList application built using Next.js, integrated with Cler
 - **ToDo Management**: Users can create new ToDo items, mark them as complete, and delete them as needed.
 - **Type Safety with TypeScript**: The application is built using TypeScript, providing type safety and enhancing development productivity.
 - **Responsive Design with Tailwind CSS**: The user interface is responsive and mobile-friendly, thanks to Tailwind CSS utility classes.
-- **Database Interaction with Prisma**: Prisma is used as the ORM to interact with the database, making database operations more efficient and developer-friendly.
+- **Database Interaction with Prisma & MongoDB**: Prisma & MongoDB is used as the ORM to interact with the database, making database operations more efficient and developer-friendly.
 
 ## Tech Stack
 
@@ -18,7 +18,7 @@ This project is a ToDoList application built using Next.js, integrated with Cler
 - **Clerk**: Next.js authentication library for managing user authentication.
 - **TypeScript**: Superset of JavaScript providing static typing and other advanced features.
 - **Tailwind CSS**: Utility-first CSS framework for building custom designs quickly.
-- **Prisma**: Modern database toolkit for TypeScript and Node.js, providing type-safe database access.
+- **Prisma & MongoDB**: Modern database toolkit for TypeScript and Node.js, providing type-safe database access.
 
 ## Getting Started
 
